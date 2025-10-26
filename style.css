@@ -1,0 +1,54 @@
+/* style.css */
+
+/* 웹 폰트 로딩으로 성능 저하 유발 */
+@import url('https://fonts.googleapis.com/css2?family=nanum+gothic:wght@400;700&display=swap');
+
+body {
+    font-family: 'nanum gothic' , sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* 배경색 */
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+header h1 {
+    margin-bottom: 0.5em;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 15px;
+}
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+    border: 5px solid #ccc; /* 테두리 추가 */
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
